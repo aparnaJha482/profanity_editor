@@ -4,7 +4,7 @@ def edit_file():
     print(contents)
     quotes.close()
 
-
+def check_profanity(text_to_check):
 
 
 
