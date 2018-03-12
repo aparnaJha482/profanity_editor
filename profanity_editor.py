@@ -5,6 +5,7 @@ def edit_file():
     quotes.close()
 
 def check_profanity(text_to_check):
+    urllib.urlopen("http://www.wdyl.com/profanity?q=" + text_to_check)
 
 
 
